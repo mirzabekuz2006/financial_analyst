@@ -145,13 +145,14 @@ CUSTOM_CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap');
 
 :root {
-    --bg-primary: #0A0E17;
-    --bg-secondary: #11182B;
-    --bg-elevated: #1A2238;
-    --border-subtle: #232B45;
-    --text-primary: #E7EAF2;
-    --text-secondary: #8B95AC;
-    --accent-gradient: linear-gradient(135deg, #6366F1 0%, #14B8A6 100%);
+    --bg-primary: #000000;          /* Stark Bloomberg black */
+    --bg-secondary: #0D0D0D;        /* Ultra-dark gray for card separation */
+    --bg-elevated: #1A1A1A;         /* Control background */
+    --border-subtle: #2B2B2B;       /* Structural grid lines */
+    --text-primary: #FFFFFF;        /* Pure white for readability */
+    --text-secondary: #2FF573;      /* Terminal neon green for sub-labels */
+    /* Classic Bloomberg Amber transitioning to Terminal Green */
+    --accent-gradient: linear-gradient(135deg, #FF9900 0%, #00FF00 100%);
 }
 
 .stApp {
